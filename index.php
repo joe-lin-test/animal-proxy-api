@@ -4,7 +4,11 @@ $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';
 
 $allow_origin = array(  
     'https://jiahongl.github.io',
-    'http://localhost:8000'
+    'http://localhost:8000',
+    'http://localhost:8080',
+    'http://localhost:3000',
+    'http://localhost:4200',
+    'http://localhost:4300',
 );  
   
 if(in_array($origin, $allow_origin)){  
