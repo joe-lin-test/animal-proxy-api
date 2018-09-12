@@ -1,5 +1,14 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+
+$origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
+
+$allow_origin = array(  
+    'https://jiahongl.github.io'
+);  
+  
+if(in_array($origin, $allow_origin)){  
+    header('Access-Control-Allow-Origin:'.$origin);       
+}
 
 $url_params = '';
 foreach ($_GET as $name => $value) {
