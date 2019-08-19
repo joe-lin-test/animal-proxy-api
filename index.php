@@ -3,8 +3,7 @@
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
 
 $allow_origin = array(  
-    'https://jiahongl.bitbucket.io',
-    'http://localhost:4200'
+    'https://jiahongl.bitbucket.io'
 );  
   
 if(in_array($origin, $allow_origin)){  
