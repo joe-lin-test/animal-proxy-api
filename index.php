@@ -40,5 +40,9 @@ if ($err) {
   echo $response;
 }
 
+route('/data', function () {
+  return ;
+});
+
 $action = $_SERVER['REQUEST_URI'];
 dispatch($action);
