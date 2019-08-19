@@ -1,6 +1,6 @@
 <?php
 
-require_once "router.php";
+// require_once "router.php";
 
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
 
@@ -40,9 +40,9 @@ if ($err) {
   echo $response;
 }
 
-route('/data', function () {
-  return ;
-});
+// route('/data', function () {
+//   return ;
+// });
 
-$action = $_SERVER['REQUEST_URI'];
-dispatch($action);
+// $action = $_SERVER['REQUEST_URI'];
+// dispatch($action);
