@@ -1,5 +1,7 @@
 <?php
 
+require_once "router.php";
+
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
 
 $allow_origin = array(  
@@ -37,3 +39,6 @@ if ($err) {
 } else {
   echo $response;
 }
+
+$action = $_SERVER['REQUEST_URI'];
+dispatch($action);
