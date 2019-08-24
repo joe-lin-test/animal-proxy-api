@@ -1,0 +1,16 @@
+[{
+  "key": "NONE",
+  "value": "未公告"
+}, {
+  "key": "OPEN",
+  "value": "開放認養"
+}, {
+  "key": "ADOPTED",
+  "value": "已認養"
+}, {
+  "key": "OTHER",
+  "value": "其他"
+}, {
+  "key": "DEAD",
+  "value": "死亡"
+}]
