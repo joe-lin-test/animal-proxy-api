@@ -101,7 +101,7 @@ $davai->get('/animals', function(){
 });
 
 // 01.獲取狀態代碼列表
-$davai->get('/status', function(){
+$davai->get('/statusList', function(){
 
   $json = file_get_contents("./json/status.json");
 
@@ -116,7 +116,7 @@ $davai->get('/status', function(){
 });
 
 // 02.獲取動物性別代碼列表
-$davai->get('/sex', function(){
+$davai->get('/sexList', function(){
 
   $json = file_get_contents("./json/sex.json");
 
@@ -132,7 +132,7 @@ $davai->get('/sex', function(){
 
 
 // 03.動物體型代碼表
-$davai->get('/body-type', function(){
+$davai->get('/bodyTypeList', function(){
 
   $json = file_get_contents("./json/body-type.json");
 
@@ -147,7 +147,7 @@ $davai->get('/body-type', function(){
 });
 
 // 04.年紀代碼表
-$davai->get('/age', function(){
+$davai->get('/ageList', function(){
 
   $json = file_get_contents("./json/age.json");
 
@@ -162,7 +162,7 @@ $davai->get('/age', function(){
 });
 
 // 05.縣市代碼表
-$davai->get('/area', function(){
+$davai->get('/areaList', function(){
 
   $json = file_get_contents("./json/area.json");
 
@@ -177,7 +177,7 @@ $davai->get('/area', function(){
 });
 
 // 06.是否絕育代碼表
-$davai->get('/sterilization', function(){
+$davai->get('/sterilizationList', function(){
 
   $json = file_get_contents("./json/sterilization.json");
 
@@ -192,7 +192,7 @@ $davai->get('/sterilization', function(){
 });
 
 // 07.是否施打狂犬病代碼表
-$davai->get('/bacterin', function(){
+$davai->get('/bacterinList', function(){
 
   $json = file_get_contents("./json/bacterin.json");
 
@@ -207,7 +207,7 @@ $davai->get('/bacterin', function(){
 });
 
 // 08.類型
-$davai->get('/kind', function(){
+$davai->get('/kindList', function(){
 
   $json = file_get_contents("./json/kind.json");
 
@@ -222,7 +222,7 @@ $davai->get('/kind', function(){
 });
 
 // 09.毛色
-$davai->get('/colour', function(){
+$davai->get('/colourList', function(){
 
   $json = file_get_contents("./json/colour.json");
 
@@ -238,7 +238,7 @@ $davai->get('/colour', function(){
 
 
 // 10.收容中心
-$davai->get('/shelter', function(){
+$davai->get('/shelterList', function(){
 
   $json = file_get_contents("./json/shelter.json");
 
@@ -253,7 +253,7 @@ $davai->get('/shelter', function(){
 });
 
 // 11.回饋類型
-$davai->get('/feedback-type', function(){
+$davai->get('/feedbackTypeList', function(){
 
   $json = file_get_contents("./json/feedback-type.json");
 
@@ -268,7 +268,7 @@ $davai->get('/feedback-type', function(){
 });
 
 // 12.議題狀態
-$davai->get('/issues-status', function(){
+$davai->get('/issuesStatusList', function(){
 
   $json = file_get_contents("./json/issues-status.json");
 
