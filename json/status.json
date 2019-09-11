@@ -1,16 +1,16 @@
 [{
-  "key": "NONE",
-  "value": "未公告"
+  "code": "NONE",
+  "name": "未公告"
 }, {
-  "key": "OPEN",
-  "value": "開放認養"
+  "code": "OPEN",
+  "name": "開放認養"
 }, {
-  "key": "ADOPTED",
-  "value": "已認養"
+  "code": "ADOPTED",
+  "name": "已認養"
 }, {
-  "key": "OTHER",
-  "value": "其他"
+  "code": "OTHER",
+  "name": "其他"
 }, {
-  "key": "DEAD",
-  "value": "死亡"
+  "code": "DEAD",
+  "name": "死亡"
 }]

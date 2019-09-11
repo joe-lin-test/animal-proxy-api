@@ -1,68 +1,68 @@
 [
   {
-      "key": 2,
-      "value": "臺北市"
+      "code": 2,
+      "name": "臺北市"
   }, {
-      "key": 3,
-      "value": "新北市"
+      "code": 3,
+      "name": "新北市"
   }, {
-      "key": 4,
-      "value": "基隆市"
+      "code": 4,
+      "name": "基隆市"
   }, {
-      "key": 5,
-      "value": "宜蘭縣"
+      "code": 5,
+      "name": "宜蘭縣"
   }, {
-      "key": 6,
-      "value": "桃園縣"
+      "code": 6,
+      "name": "桃園縣"
   }, {
-      "key": 7,
-      "value": "新竹縣"
+      "code": 7,
+      "name": "新竹縣"
   }, {
-      "key": 8,
-      "value": "新竹市"
+      "code": 8,
+      "name": "新竹市"
   }, {
-      "key": 9,
-      "value": "苗栗縣"
+      "code": 9,
+      "name": "苗栗縣"
   }, {
-      "key": 10,
-      "value": "台中市"
+      "code": 10,
+      "name": "台中市"
   }, {
-      "key": 11,
-      "value": "彰化縣"
+      "code": 11,
+      "name": "彰化縣"
   }, {
-      "key": 12,
-      "value": "南投縣"
+      "code": 12,
+      "name": "南投縣"
   }, {
-      "key": 13,
-      "value": "雲林縣"
+      "code": 13,
+      "name": "雲林縣"
   }, {
-      "key": 14,
-      "value": "嘉義縣"
+      "code": 14,
+      "name": "嘉義縣"
   }, {
-      "key": 15,
-      "value": "嘉義市"
+      "code": 15,
+      "name": "嘉義市"
   }, {
-      "key": 16,
-      "value": "臺南市"
+      "code": 16,
+      "name": "臺南市"
   }, {
-      "key": 17,
-      "value": "高雄市"
+      "code": 17,
+      "name": "高雄市"
   }, {
-      "key": 18,
-      "value": "屏東縣"
+      "code": 18,
+      "name": "屏東縣"
   }, {
-      "key": 19,
-      "value": "花蓮縣"
+      "code": 19,
+      "name": "花蓮縣"
   }, {
-      "key": 20,
-      "value": "臺東縣"
+      "code": 20,
+      "name": "臺東縣"
   }, {
-      "key": 21,
-      "value": "澎湖縣"
+      "code": 21,
+      "name": "澎湖縣"
   }, {
-      "key": 22,
-      "value": "金門縣"
+      "code": 22,
+      "name": "金門縣"
   }, {
-      "key": 23,
-      "value": "連江縣"
+      "code": 23,
+      "name": "連江縣"
   }]

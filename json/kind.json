@@ -1,13 +1,13 @@
 [{
-  "key": "貓",
-  "value": "貓"
+  "code": "貓",
+  "name": "貓"
 }, {
-  "key": "狗",
-  "value": "狗"
+  "code": "狗",
+  "name": "狗"
 }, {
-  "key": "其他",
-  "value": "其他"
+  "code": "其他",
+  "name": "其他"
 }, {
-  "key": "none",
-  "value": "不拘"
+  "code": "none",
+  "name": "不拘"
 }]

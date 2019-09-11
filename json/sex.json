@@ -1,13 +1,13 @@
 [{
-  "key": "M",
-  "value": "公"
+  "code": "M",
+  "name": "公"
 }, {
-  "key": "F",
-  "value": "母"
+  "code": "F",
+  "name": "母"
 }, {
-  "key": "N",
-  "value": "未輸入"
+  "code": "N",
+  "name": "未輸入"
 }, {
-  "key": "none",
-  "value": "不拘"
+  "code": "none",
+  "name": "不拘"
 }]

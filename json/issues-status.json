@@ -1,18 +1,18 @@
 [
   {
-      "key": 0,
-      "value": "提交"
+      "code": 0,
+      "name": "提交"
   }, {
-      "key": 1,
-      "value": "已追蹤"
+      "code": 1,
+      "name": "已追蹤"
   }, {
-      "key": 2,
-      "value": "處理中"
+      "code": 2,
+      "name": "處理中"
   }, {
-      "key": 3,
-      "value": "已解決"
+      "code": 3,
+      "name": "已解決"
   }, {
-      "key": 99,
-      "value": "歸檔"
+      "code": 99,
+      "name": "歸檔"
   }
 ]

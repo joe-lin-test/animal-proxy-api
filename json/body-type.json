@@ -1,16 +1,16 @@
 [{
-  "key": "MINI",
-  "value": "迷你"
+  "code": "MINI",
+  "name": "迷你"
 }, {
-  "key": "SMALL",
-  "value": "小型"
+  "code": "SMALL",
+  "name": "小型"
 }, {
-  "key": "MEDIUM",
-  "value": "中型"
+  "code": "MEDIUM",
+  "name": "中型"
 }, {
-  "key": "BIG",
-  "value": "大型"
+  "code": "BIG",
+  "name": "大型"
 }, {
-  "key": "none",
-  "value": "不拘"
+  "code": "none",
+  "name": "不拘"
 }]
