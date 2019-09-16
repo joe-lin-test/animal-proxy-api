@@ -7,7 +7,8 @@ $davai = new Davai();
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
 
 $allow_origin = array(  
-    'https://jiahongl.bitbucket.io'
+    'https://jiahongl.bitbucket.io',
+    'https://jiahongl.github.io'
 );  
   
 if(in_array($origin, $allow_origin)){  
