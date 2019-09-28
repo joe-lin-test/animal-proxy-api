@@ -89,11 +89,24 @@ $davai->get('/animals', function(){
 
   } else {
 
-    $res = array(
-      "success" => true,
-      "result" => json_decode($response),
-      "errorMessage" => null,
-    );
+    if(json_decode($response)==[]){
+
+      $res = array(
+        "success" => false,
+        "result" => json_decode($response),
+        "errorMessage" => '查無資料',
+      );
+  
+    }else{
+
+      $res = array(
+        "success" => true,
+        "result" => json_decode($response),
+        "errorMessage" => null,
+      );
+  
+    }
+
 
     echo json_encode( $res );
 
