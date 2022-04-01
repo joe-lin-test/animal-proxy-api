@@ -6,48 +6,14 @@ $davai = new Davai();
 
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
 
-$allow_origin = array(  
-    'https://jiahongl.bitbucket.io',
-    'https://jiahongl.github.io'
+// 限制哪些網域可以存取 (可自行修改成自己的)
+$allow_origin = array(
+  'https://jiahongl.github.io'
 );  
   
 if(in_array($origin, $allow_origin)){  
     header('Access-Control-Allow-Origin:'.$origin);       
 }
-
-// 舊api
-$davai->get('/index.php', function(){
-
-  $url_params = '';
-
-  foreach ($_GET as $name => $value) {
-    $url_params = $url_params . '&' . $name . '=' . $value; 
-  }
-
-  $curl = curl_init();
-
-  curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL" . $url_params,
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 60,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_NONE,
-    CURLOPT_CUSTOMREQUEST => "GET",
-  ));
-
-  $response = curl_exec($curl);
-  $err = curl_error($curl);
-
-  curl_close($curl);
-
-  if ($err) {
-    echo "cURL Error #:" . $err;
-  } else {
-    echo $response;
-  }
-
-});
 
 // 獲取寵物資料列表
 $davai->get('/animals', function(){
@@ -143,7 +109,6 @@ $davai->get('/sexList', function(){
   echo json_encode($res);
 
 });
-
 
 // 03.動物體型代碼表
 $davai->get('/bodyTypeList', function(){
@@ -249,7 +214,6 @@ $davai->get('/colourList', function(){
   echo json_encode($res);
 
 });
-
 
 // 10.收容中心
 $davai->get('/shelterList', function(){
